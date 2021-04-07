@@ -60,13 +60,19 @@ rails console
 
 - User.all
 
-# Author
+# Authors
 
 👤 **Andres Leon**
 
 - GitHub: [@notrexxx](https://github.com/notrexxx)
 - Twitter: [@emigdioleon1](https://twitter.com/emigdioleon1)
 - LinkedIn: [Emigdio Leon](https://linkedin.com/emigdio-leon-689109195)
+
+👤 **Bello Morenikeji Fuad**
+
+- GitHub: [@moreenecoder](https://github.com/Moreneecoder)
+- Twitter: [@mo_bello19](https://twitter.com/mo_bello19)
+- LinkedIn: [Morenikeji Bello](https://linkedin.com/morenikeji-bello)
 
 
 # Show your support
@@ -81,7 +87,7 @@ Feel free to check the [issues page](https://github.com/notrexxx/Re-former/issue
 
 # Acknowledgments
 
-- Stand Up Team
+- [Microverse](https://microverse.org)
 
 # 📝 License
 
