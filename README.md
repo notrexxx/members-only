@@ -2,9 +2,9 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 
-# Project: Forms and Helpers
+# Project: Authentification
 
-This project provides a understanding of the methods used to create forms on rails
+This project provides a understanding of the methods used to create sessions and authentifications on rails
 
 # Built With
 
