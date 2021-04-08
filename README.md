@@ -4,7 +4,7 @@
 
 # Project: Authentification
 
-This project provides a understanding of the methods used to create sessions and authentifications on rails
+This project provides an understanding of the methods used to create sessions and authentification on rails
 
 # Built With
 
@@ -27,14 +27,23 @@ To run the application please:
 ```
 bundle install
 ```
-press ENTER and wait.
+Press ENTER and wait.
 
+- Type:
+```
+ rails db:create
+```
+and press ENTER
 - Type:
 ```
  rails db:migrate
 ```
 and press ENTER
-
+- Type:
+```
+yarn install
+```
+and press ENTER
 - Type:
 ```
  rails server
