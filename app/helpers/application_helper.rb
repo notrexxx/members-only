@@ -21,11 +21,10 @@ module ApplicationHelper
   end
 
   def app_notice(_notice)
-   notice if notice
+    notice
   end
 
   def app_alert(_alert)
-    alert if alert
-   end
-
+    alert
+  end
 end
