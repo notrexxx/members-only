@@ -11,19 +11,12 @@
   </head>
 
   <body>
-  <% if notice %>
-  <p class="alert alert-success"><%= notice %></p>
-<% end %>
-<% if alert %>
-  <p class="alert alert-danger"><%= alert %></p>
-<% end %>
+  
+  <p class="alert alert-success"><%= app_notice(@notice) %></p>
+  <p class="alert alert-danger"><%= app_alert(@alert) %></p>
+
     <%= yield %>
 
-    <% if user_signed_in? %>
-      <p>
-        <%= link_to 'Logout', destroy_user_session_path, method: :delete %>
-      </p>
-    <% end %>
-
+    <%= user_logout(@user) %>
   </body>
 </html>

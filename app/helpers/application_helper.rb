@@ -15,4 +15,17 @@ module ApplicationHelper
   def user_author(_user)
     'Author' if user_signed_in?
   end
+
+  def user_logout(_user)
+    link_to 'Logout', destroy_user_session_path, method: :delete if user_signed_in?
+  end
+
+  def app_notice(_notice)
+   notice if notice
+  end
+
+  def app_alert(_alert)
+    alert if alert
+   end
+
 end
