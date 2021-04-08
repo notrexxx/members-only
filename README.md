@@ -4,7 +4,7 @@
 
 # Project: Authentification
 
-This project provides a understanding of the methods used to create sessions and authentifications on rails
+This project provides an understanding of the methods used to create sessions and authentification on rails
 
 # Built With
 
@@ -16,7 +16,7 @@ This project provides a understanding of the methods used to create sessions and
 
 # Getting Started
 
-- Run this command in your OS terminal: `git clone https://github.com/notrexxx/Re-former.git` to get a copy of the project. 
+- Run this command in your OS terminal: `git clone https://github.com/notrexxx/members-only.git` to get a copy of the project. 
 
 # Usage
 To run the application please:
@@ -27,14 +27,23 @@ To run the application please:
 ```
 bundle install
 ```
-press ENTER and wait.
+Press ENTER and wait.
 
+- Type:
+```
+ rails db:create
+```
+and press ENTER
 - Type:
 ```
  rails db:migrate
 ```
 and press ENTER
-
+- Type:
+```
+yarn install
+```
+and press ENTER
 - Type:
 ```
  rails server
@@ -45,28 +54,23 @@ and press ENTER
 
 - Go to http://127.0.0.1:3000/
 
-- Create users using the forms
-- Edit users by navigating to http://127.0.0.1:3000/users/"the ID of the user"/edit, for example:
+- Sign In users by using the forms
+- Create posts by clicking on the "new post" link
+- You can see the author of the post only if you are signed in
 
-```
-http://127.0.0.1:3000/users/1/edit
-```
-
-- Run IRB Rails console
-```
-rails console
-```
-- To test the app, and be able to see the results of the creation and edition, execute the following commands from the IRB console:_
-
-- User.all
-
-# Author
+# Authors
 
 👤 **Andres Leon**
 
 - GitHub: [@notrexxx](https://github.com/notrexxx)
 - Twitter: [@emigdioleon1](https://twitter.com/emigdioleon1)
 - LinkedIn: [Emigdio Leon](https://linkedin.com/emigdio-leon-689109195)
+
+👤 **Bello Morenikeji Fuad**
+
+- GitHub: [@moreenecoder](https://github.com/Moreneecoder)
+- Twitter: [@mo_bello19](https://twitter.com/mo_bello19)
+- LinkedIn: [Morenikeji Bello](https://linkedin.com/morenikeji-bello)
 
 
 # Show your support
@@ -77,11 +81,11 @@ Give a ⭐️ if you like this project!
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/notrexxx/Re-former/issues).
+Feel free to check the [issues page](https://github.com/notrexxx/members-only/issues).
 
 # Acknowledgments
 
-- Stand Up Team
+- [Microverse](https://microverse.org)
 
 # 📝 License
 

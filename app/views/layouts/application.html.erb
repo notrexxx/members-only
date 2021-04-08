@@ -11,6 +11,12 @@
   </head>
 
   <body>
+  
+  <p class="alert alert-success"><%= app_notice(@notice) %></p>
+  <p class="alert alert-danger"><%= app_alert(@alert) %></p>
+
     <%= yield %>
+
+    <%= user_logout(@user) %>
   </body>
 </html>
